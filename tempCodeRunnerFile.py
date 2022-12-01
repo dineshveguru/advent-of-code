@@ -1,0 +1,10 @@
+print(data)
+data = "\n".join(x)
+print(data)
+print("------")
+data = data.split("\n\n")
+print(data)
+print("------------")
+data = list(map(lambda x: x.strip(), data))
+for i in data:
+    print(i)
