@@ -1,10 +1,7 @@
-print(data)
-data = "\n".join(x)
-print(data)
-print("------")
-data = data.split("\n\n")
-print(data)
-print("------------")
-data = list(map(lambda x: x.strip(), data))
-for i in data:
-    print(i)
+small = {}
+# cap = {}
+# for i in range(97, 123):
+#     small[chr(i)] = i - 96
+
+# for i in range(65, 91):
+#     cap[chr(i)] = i - 38

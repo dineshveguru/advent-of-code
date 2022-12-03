@@ -1,15 +1,11 @@
-# import heapq
-# a = [1, 5, 3, 4]
-# heapq.heapify(a)
-# print(heapq.nlargest(3, a))
-# a = """
-#     this is test
-#     we can do whatever we want
-# as you can see
-#         i am writing this now
-# """
-# print(a)
+# print(str(ord("a")) + " - 1") 97
+# print(str(ord("A")) + " - 27") 65
+small = {}
+cap = {}
+for i in range(97, 123):
+    small[chr(i)] = i - 96
 
-# a = (1, 5, 2, "dinesh")
-# print(a)
-print(int("1101", 2))
+for i in range(65, 91):
+    cap[chr(i)] = i - 38
+
+
