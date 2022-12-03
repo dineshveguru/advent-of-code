@@ -12,3 +12,4 @@
 
 # a = (1, 5, 2, "dinesh")
 # print(a)
+print(int("1101", 2))
